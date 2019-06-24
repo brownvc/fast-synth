@@ -11,3 +11,5 @@ We trained our models on the SUNCG dataset. Due to an ongoing legal dispute, SUN
 We will update this page in the event that this situation changes in the future.
 
 `cat.py`, `loc.py`, `orient.py`, `dims.py` contains the four components of our model respectively. `fast_synth.py` contains the main scene synthesis code. We will update with instructions on them as well.
+
+We have a follow-up of this paper set to appear at SIGGRAPH 2019. In that paper, we introduce a high level "planning" module, formulated as a graph convolutional network, and uses the modules introduced here to fill out/"instantiate" low level details. Please refer to https://github.com/brownvc/planit for more details.
